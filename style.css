@@ -15,6 +15,12 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     line-height: 30px;
+    text-align: left;
+}
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
 }
 
 .header {
@@ -92,3 +98,37 @@ button {
 
 
 /* section 2 */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+    padding: 50px 0px;
+}
+.project-stack {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    height: auto;
+    gap: 30px
+}
+.project-picture {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+}
+.subtext2 {
+    text-align: center;
+}
