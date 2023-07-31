@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     flex: 1;
 }
-
+/* fonts */
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -21,6 +21,11 @@ body {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937
+}
+.quote-text {
+    font-size:36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .header {
@@ -102,7 +107,7 @@ button {
 .section-2{
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    padding: 50px 200px;
 }
 
 .title2 {
@@ -130,5 +135,65 @@ button {
     border-radius: 15px;
 }
 .subtext2 {
+    text-align: center;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* section 4 */
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.container {
+    background-color: #3882f6;
+    display: flex;
+    flex: 1;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 50px;
+}
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.center {
+    text-align: center;
+    
+}
+.contactbutton {
+    color:white;
+    border-color: white;
+    height: 50px;
+    width:150px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    align-self: center;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #1F2937;
+    padding: 20px 100px;
     text-align: center;
 }
